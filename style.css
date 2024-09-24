@@ -155,3 +155,76 @@ header .footer p a{
 }
 
 /* ====== Header ends ====== */
+
+/* ===== MAIN SECTION ===== */
+
+main{
+    margin-left: 300px;
+    background-color: var(--bgColor);
+    transition: 0.3s;
+}
+
+@media (max-width:1050px) {
+main{
+    margin-left: 0;
+}}
+
+/* === Home Section === */
+
+#home{
+    height: 100vh;
+    width: 100%;
+    background-image: url(assets/hero-images/girl-programming.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px;
+    position: relative;
+    color: white;
+}
+
+/* Overlay */
+
+#home::before{
+    content:'';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.589);
+    position:absolute;
+    left: 0;
+    top: 0;
+}
+
+#home .home-row{
+    z-index: 1;
+}
+#home .home-row h1{
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+    line-height: 70px;
+}
+
+#home .home-row h1 span{
+    color: var(--themeColor);
+}
+
+#home .home-row p{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#home .home-row p span{
+    border-bottom:4px solid var(--themeColor) ;
+}
+
+/* == Mobile View == */
+
+@media (max-width:1050px) {
+    
+}
