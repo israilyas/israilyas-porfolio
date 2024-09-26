@@ -244,3 +244,36 @@ main{
     }
 
 }
+
+/* ===== About Section Start =====  */
+span{
+    font-weight: 300;
+}
+
+#about{
+    padding: 70px 30px;
+}
+
+/* Global Heading  */
+.sub-heading{
+color: black;
+font-size: 30px;
+margin-bottom: 10px;
+}
+
+/* Devider  */
+divider{
+    width: 80px;
+    height: 4px;
+    background-color: var(--themeColor);
+    border-radius: 3px;
+}
+
+#about .divider ~p{
+    color: var(--textBGColor);
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin-top: 15px;
+}
+
+/* ===== About Section Ends =====  */
