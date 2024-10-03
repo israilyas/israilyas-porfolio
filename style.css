@@ -569,6 +569,10 @@ margin-bottom: 10px;
 }
 /* ======RESUME Section END ======= */
 
+.common-section-style {
+    padding: 70px 30px;
+}
+
 /* -------------------------------------- */
 /* ======Portfolio Section Starts ======= */
 
@@ -636,6 +640,45 @@ margin-bottom: 10px;
     transition: 0.4s;
 }
 #portfolio .port-row .port-item .port-info  a:hover{
-    
+
 }
 /* ======Portfolio Section END ======= */
+/* ------------------------------ */
+/* ======Services Section START ======= */
+#services .service-row{
+margin-top: 50px;
+}
+#services .service-row .service-box{
+    gap: 20px;
+}
+#services .service-row .service-box .icon i{
+width: 50px;
+height: 50px;
+border-radius: 50px;
+border: 2px solid var(--themeColor);
+font-size: 22px;
+line-height: 46px;
+background-color: var(--themeColor);
+color: var(--bgColor);
+transition: 0.7s;
+text-align: center;
+}
+#services .service-row .service-box:hover .icon i{
+    color: var(--themeColor);
+    background-color: var(--bgColor);
+}
+#services .service-row .service-box:hover{
+    cursor: pointer;
+}
+#services .service-row .service-box .ser-info h4{
+    font-size: 20px;
+    color: var(--sideBGColor);
+    font-weight: 600;
+}
+#services .service-row .service-box .ser-info h4 +p{
+    color: var(--textColor
+    );
+    font-size: 14px;
+    font-weight: 500;
+}
+/* ======Services Section END ======= */
