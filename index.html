@@ -34,9 +34,9 @@
             <ul>
                 <li><a href="#home" class="active"><i class="fa-solid fa-house"></i>Home</a></li>
                 <li><a href="#about"><i class="fa-solid fa-user"></i>About Me</a></li>
-                <li><a href="#"><i class="fa-solid fa-briefcase"></i>Portfolio</a></li>
-                <li><a href="#"><i class="fa-solid fa-server"></i>Services</a></li>
-                <li><a href="#"><i class="fa-solid fa-envelope"></i>Contact</a></li>
+                <li><a href="#portfolio"><i class="fa-solid fa-briefcase"></i>Portfolio</a></li>
+                <li><a href="#services"><i class="fa-solid fa-server"></i>Services</a></li>
+                <li><a href="#contact"><i class="fa-solid fa-envelope"></i>Contact</a></li>
             </ul>
         </nav>
 
@@ -59,7 +59,7 @@
     <main>
 
         <!--  Home Section Starts -->
-        <section id="home">
+        <section id="home" class="">
             <div class="home-row">
                 <h1>Hi, This is <br>ISRA ILYAS<span>.</span></h1>
                 <p>I'm a <span class="auto-input"></span></p>
@@ -69,7 +69,7 @@
 
         <!-- ==== ABout Section Starts ===== -->
 
-        <section id="about" class="mt-3 mb-0 pb-0">
+        <section id="about" class="common-section-style">
 
             <h1 class="sub-heading">About Me</h1>
             <div class="divider"></div>
@@ -145,7 +145,7 @@
 
         <!-- ==== Facts Section Start ===== -->
 
-        <section id="facts">
+        <section id="facts" class="common-section-style">
 
             <h1 class="sub-heading">Facts</h1>
             <div class="divider"></div>
@@ -209,7 +209,7 @@
 
         <!-- ==== Skills Section Starts ===== -->
 
-        <section id="skills" class="my-0 py-0">
+        <section id="skills" class="common-section-style">
 
             <h2 class="sub-heading">Skills</h2>
             <div class="divider"></div>
@@ -274,7 +274,7 @@
         <!-- -------------------------------------------------- -->
 
     <!-- ==== Resume Section Starts ===== -->
-<section id="resume">
+<section id="resume" class="common-section-style">
 
     <h1 class="sub-heading">Resume</h1>
     <div class="divider"></div>
@@ -358,7 +358,7 @@
 
         <!-- ==== Prtfolio Section Starts ===== -->
 
-        <section id="portfolio">
+        <section id="portfolio" class="common-section-style">
             <h1 class="sub-heading">Portfolio</h1>
             <div class="divider"></div>
             <p class="sub-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quisquam laboriosam
@@ -569,7 +569,7 @@
 
         <!-- ==== Contact Section starts ===== -->
 
-        <section id="contact" class="common-section-style ">
+        <section id="contact" class="common-section-style">
 
             <h2 class="sub-heading">Contact</h2>
             <div class="divider"></div>
@@ -578,7 +578,7 @@
                 harum culpa eligendi dolores consequuntur repellat!
             </p>
 
-            <div class="contact-row my-3 d-flex w-100">
+            <div class="contact-row my-4">
 
                 <!-- left col -->
                 <div class="contact-left">
@@ -616,10 +616,32 @@
                         </div>
                     </div>
 
+                    <!-- Map -->
+
+                    <div class="map">
+                        
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924237.7103805918!2d66.49592152406926!3d25.192983568047854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e06651d4bbf%3A0x9cf92f44555a0c23!2sKarachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1728834547578!5m2!1sen!2s" width="100%" height="250" style="border: 0;"  referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    </div>
+
                 </div>
 
                 <!-- Right Col -->
                 <div class="contact-right">
+
+                    <form action="">
+
+                        <input type="text" id="email" name="email" placeholder="Your Name">
+
+                        <input type="email" id="name" name="name" placeholder="Your Email">
+
+                        <input type="text" id="subject" name="subject" placeholder="subject">
+
+                        <textarea name="msg" id="msg" rows="9" placeholder="Your  Message"></textarea>
+
+                        <input type="submit" value="Send Messag">
+
+                    </form>
 
                 </div>
 
