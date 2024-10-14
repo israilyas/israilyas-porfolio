@@ -32,11 +32,11 @@
         <!-- ===== Navbar ===== -->
         <nav>
             <ul>
-                <li><a href="#home" class="active"><i class="fa-solid fa-house"></i>Home</a></li>
-                <li><a href="#about"><i class="fa-solid fa-user"></i>About Me</a></li>
-                <li><a href="#portfolio"><i class="fa-solid fa-briefcase"></i>Portfolio</a></li>
-                <li><a href="#services"><i class="fa-solid fa-server"></i>Services</a></li>
-                <li><a href="#contact"><i class="fa-solid fa-envelope"></i>Contact</a></li>
+                <li ><a href="#home" class="active active-link"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="#about" class="active-link"><i class="fa-solid fa-user"></i>About Me</a></li>
+                <li><a href="#portfolio" class="active-link"><i class="fa-solid fa-briefcase"></i>Portfolio</a></li>
+                <li><a href="#services" class="active-link"><i class="fa-solid fa-server"></i>Services</a></li>
+                <li><a href="#contact" class="active-link"><i class="fa-solid fa-envelope"></i>Contact</a></li>
             </ul>
         </nav>
 
@@ -99,8 +99,6 @@
                         <ul class="col-12 col-md-6 mb-0">
                             <!-- left side list  -->
                             <li><i class="fa-solid fa-angle-right"> <span
-                                        class="title fw-bold mx-2">Age:</span><span>20</span> </i></icon-listli>
-                            <li><i class="fa-solid fa-angle-right"> <span
                                         class="title fw-bold mx-2">Website:</span><span><a
                                             href="https://isra-ilyas.netlify.app/"
                                             target="_blank">https://isra-ilyas.netlify.app/</a></span> </i>
@@ -109,11 +107,11 @@
                                         class="title fw-bold mx-2">Phone:</span><span>+92 03268942669</span> </i></li>
                             <li><i class="fa-solid fa-angle-right"> <span class="title fw-bold mx-2">City:</span>
                                     <span>Pakistan, Sindh, Karachi</span> </i></li>
+                                    <li><i class="fa-solid fa-angle-right"> <span
+                                        class="title fw-bold mx-2">Degree:</span><span>BS Computer Science</span> </i>
                         </ul>
                         <ul class="col-12 col-md-6 mt-0">
                             <!-- Right  side list  -->
-                            <li><i class="fa-solid fa-angle-right"> <span
-                                        class="title fw-bold mx-2">Degree:</span><span>BS Computer Science</span> </i>
                             </li>
                             <li><i class="fa-solid fa-angle-right"> <span
                                         class="title fw-bold mx-2">Email:</span><span>israilyasq@gmail.com</span> </i>
@@ -164,7 +162,7 @@
 
                 <!-- fact box 1 -->
                 <div class="fact-box col-md-3 col-6 mx-auto row my-3">
-                    <div class="col-10">
+                    <div class="col-10 fact-box-icon">
                         <i class="fa-solid fa-folder-open
                         me-2"></i>
                         <span class="fw-bold">20+</span>
@@ -175,7 +173,7 @@
 
                 <!-- fact box 2 -->
                 <div class="fact-box col-md-3 col-6 mx-auto row  my-3">
-                    <div class="col-10">
+                    <div class="col-10 fact-box-icon">
                         <i class="fa-solid fa-certificate me-2"></i>
                         <span class="fw-bold">10+</span>
                     </div>
@@ -186,7 +184,7 @@
 
                 <!-- fact box 3 -->
                 <div class="fact-box col-md-3 col-6 mx-auto row my-3">
-                    <div class="col-10">
+                    <div class="col-10 fact-box-icon">
                         <i class="fa-solid fa-thumbs-up me-2"></i>
                         <span class="fw-bold ">100%</span>
                     </div>
@@ -196,7 +194,7 @@
 
                 <!-- fact box 4 -->
                 <div class="fact-box col-md-3 col-6 mx-auto row my-3">
-                    <div class="col-10">
+                    <div class="col-10 fact-box-icon">
                         <i class="fa-solid fa-briefcase me-2"></i>
                         <span class="fw-bold">100%</span>
                     </div>
@@ -217,13 +215,7 @@
 
             <h2 class="sub-heading">Skills</h2>
             <div class="divider"></div>
-            <p class="sub-para">My skill set spans across various programming languages, frameworks, and tools that
-                enable me to create efficient and visually appealing solutions. With a strong foundation in HTML, CSS,
-                JavaScript, and Bootstrap, I specialize in building responsive websites. Additionally, I have experience
-                with frontend libraries like React, and I am exploring the backend through technologies like Django. My
-                focus on clean, maintainable code ensures the best user experience, and I'm always eager to expand my
-                knowledge in emerging technologies to deliver innovative solutions.</p>
-
+            <p class="sub-para">My skill set spans across various programming languages, frameworks, and tools that enable me to create efficient and visually appealing solutions. With a strong foundation in HTML, CSS, JavaScript, Bootstrap, and Tailwind CSS, I specialize in building responsive and modern websites. I am currently learning TypeScript and diving deeper into data structures and algorithms (DSA) to enhance my problem-solving skills. My focus on clean, maintainable code ensures an optimal user experience, and I'm always eager to expand my knowledge in emerging technologies to deliver innovative solutions.</p>
             <div class="skills-row row row-cols-md-2 row-cols-1 mt-3">
 
                 <!-- skill-1 -->
@@ -267,6 +259,28 @@
                     </div>
                     <div class="skill-outer-line">
                         <div class="skill-inner-line" style="width: 40%;"></div>
+                    </div>
+                </div>
+
+                <!-- skill-5 -->
+                <div class="skill-box col my-3">
+                    <div class="skill-info d-flex justify-content-between  align-content-center mb-1">
+                        <h2>Bootstrap</h2>
+                        <h2>70%</h2>
+                    </div>
+                    <div class="skill-outer-line">
+                        <div class="skill-inner-line" style="width: 70%;"></div>
+                    </div>
+                </div>
+
+                <!-- skill-6 -->
+                <div class="skill-box col my-3">
+                    <div class="skill-info d-flex justify-content-between  align-content-center mb-1">
+                        <h2>Tailwind CSS</h2>
+                        <h2>70%</h2>
+                    </div>
+                    <div class="skill-outer-line">
+                        <div class="skill-inner-line" style="width: 70%;"></div>
                     </div>
                 </div>
 
@@ -339,7 +353,7 @@
                 </ul>
             </div>
 
-            <div class="pro-exp">
+            <!-- <div class="pro-exp">
                 <h3>Freelance Web Developer</h3>
                 <span class="sp-box">2021-Present</span>
                 <p>Various Clients</p>
@@ -349,7 +363,7 @@
                     <li>Optimized website performance and implemented best practices in SEO for improved visibility.</li>
                     <li>Delivered high-quality work on time, maintaining strong client relationships through effective communication.</li>
                 </ul>
-            </div>
+            </div> -->
 
         </div> <!-- Right Column END -->
 
@@ -365,13 +379,26 @@
         <section id="portfolio" class="common-section-style">
             <h1 class="sub-heading">Portfolio</h1>
             <div class="divider"></div>
-            <p class="sub-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quisquam laboriosam
-                impedit, cupiditate nulla praesentium quod, quibusdam consectetur fugit eligendi nemo doloribus
-                explicabo ut est amet nihil ullam cumque totam.</p>
+            <p class="sub-para">Welcome to my portfolio section, where I showcase a diverse range of projects that reflect my skills in web development, user-friendly design, and problem-solving. From interactive games like the **Random Number Guessing Game** to fully responsive clones of popular platforms like **Netflix** and **OLX**, each project demonstrates a blend of creativity and technical expertise. Explore my work, including a dynamic **Online Learning Platform**, an educational **Periodic Table** app, and an innovative **Voice Scripter** tool. Every project here represents my commitment to delivering functional, aesthetically pleasing solutions that solve real-world problems.</p>
 
                 <div class="port-row row row-cols-lg-3 row-cols-1 row-cols-md-2 g-3">
 
                     <!-- portfolio item 1 -->
+                    <div class="col">
+                        <div class="ms-1 port-item">
+                            <div class="port-image">
+                                <img src="assets/projects/Screenshot 2024-10-14 194923.png" alt="To Do List" class="img-fluid">
+                            </div>
+                            <div class="port-info">
+                                <h4>ToDo List</h4>
+                                <!-- <p>A fun game where users guess a random number between 1 and 100. Features user-friendly UI and engaging gameplay.</p> -->
+                                <a href="link_to_your_project"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                
+                    <!-- portfolio item 2 -->
                     <div class="col">
                         <div class="ms-1 port-item">
                             <div class="port-image">
@@ -597,8 +624,7 @@
             <h2 class="sub-heading">Contact</h2>
             <div class="divider"></div>
             <p class="sub-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel accusantium possimus dolorem porro quaerat
-                harum culpa eligendi dolores consequuntur repellat!
+                Feel free to reach out if you have any questions, project inquiries, or just want to connect. I'm always open to new opportunities and collaborations. You can contact me via email or phone, or drop a message using the form below. Let's build something great together!
             </p>
 
             <div class="contact-row my-4">
@@ -674,6 +700,13 @@
         </section>
 
         <!-- ==== Contact Section ends ===== -->
+
+        <!-- Project Pages  -->
+         <div class="project-page">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta reprehenderit impedit sapiente dolores, ex dolore ducimus dicta nesciunt, quos omnis animi excepturi sed autem! Quam, nesciunt. Asperiores ipsum possimus delectus!
+            </p>
+
+         </div>
 
     </main>
 
