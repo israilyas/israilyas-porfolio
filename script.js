@@ -31,3 +31,38 @@ links.forEach(function(link) {
     });
 });
 
+
+
+
+/// Blur on popup
+
+
+// let projectLink = document.querySelector('.projectLink');
+
+// projectLink.addEventListener('click',function toggle(){
+
+//     let Blur = document.getElementById('blur');
+//     let projectPage = document.querySelector('.project-page');
+
+//     blur.classList.toggle('active')
+//     projectPage.classList.add('projectPageActive')
+
+// });
+
+// Function to toggle the display of the project page and blur effect
+function toggle() {
+    let blur = document.getElementById('blur');
+    let projectPage = document.querySelector('.project-page');
+
+    // Toggle the active class for both elements
+    blur.classList.toggle('active');
+    projectPage.classList.toggle('active'); // Add or remove active class
+}
+
+// Adding event listener to the project link
+let projectLink = document.querySelector('.projectLink');
+projectLink.addEventListener('click', toggle);
+
+// Adding event listener to the close button
+let closeButton = document.getElementById('project-close-button');
+closeButton.addEventListener('click', toggle);
