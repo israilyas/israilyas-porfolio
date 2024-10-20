@@ -399,11 +399,12 @@
             <div class="divider"></div>
             <p class="sub-para">Welcome to my portfolio section, where I showcase a diverse range of projects that
                 reflect my skills in web development, user-friendly design, and problem-solving. From interactive games
-                like the **Random Number Guessing Game** to fully responsive clones of popular platforms like
-                **Netflix** and **OLX**, each project demonstrates a blend of creativity and technical expertise.
-                Explore my work, including a dynamic **Online Learning Platform**, an educational **Periodic Table**
+                like the <b>Random Number Guessing Game</b></Random> to fully responsive clones of popular platforms like
+                <b>Netflix</b> and <b>OLX</b>, each project demonstrates a blend of creativity and technical expertise.
+                <!-- Explore my work, including a dynamic **Online Learning Platform**, an educational **Periodic Table**
                 app, and an innovative **Voice Scripter** tool. Every project here represents my commitment to
-                delivering functional, aesthetically pleasing solutions that solve real-world problems.</p>
+                delivering functional, aesthetically pleasing solutions that solve real-world problems -->
+                .</p>
 
             <div class="port-row row row-cols-lg-3 row-cols-1 row-cols-md-2 g-3">
 
@@ -714,13 +715,12 @@
                 <!-- Right Col -->
                 <div class="contact-right">
 
-                    <form action="">
-
-                        <input type="text" id="email" name="email" placeholder="Your Name">
-                        <input type="email" id="name" name="name" placeholder="Your Email">
+                    <form action="" id="contactForm">
+                        <input type="email" id="name" name="name" placeholder="Your Name">
+                        <input type="text" id="email" name="email" placeholder="Your Email">
                         <input type="text" id="subject" name="subject" placeholder="subject">
                         <textarea name="msg" id="msg" rows="9" placeholder="Your  Message"></textarea>
-                        <input type="submit" value="Send Messag">
+                        <input type="submit" value="Send Message">
 
                     </form>
 
@@ -737,10 +737,61 @@
 
     <!-- =========== Project Pages ===========  -->
 
-    <!-- Blur overlay -->
-    <div id="blur"></div>
+    <!-- Blur overlay
+    <div id="blur"></div> -->
 
-    <!-- Popup project page -->
+    <!-- <div>
+        Example for Project 1 with video
+<div class="project-page" id="project1">
+    <button id="project-close-button">X</button>
+    <h2>Project 1 Title</h2>
+    
+    Video Section
+    <div class="demo-video">
+        <iframe width="560" height="315" src="assets/Project Demo videos/todoList.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="tech-stack">
+        <h3>Technologies Used:</h3>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+    </div>
+    
+    <div class="project-links">
+        <a href="#" target="_blank">View Code</a>
+        <a href="#" target="_blank">Live Demo</a>
+    </div>
+</div>
+
+Example for Project 2 with video
+<div class="project-page" id="project2">
+    <button id="project-close-button">X</button>
+    <h2>Project 2 Title</h2>
+    
+    Video Section
+    <div class="demo-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ANOTHER_VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="tech-stack">
+        <h3>Technologies Used:</h3>
+        <span>React</span>
+        <span>Node.js</span>
+    </div>
+
+    <div class="project-links">
+        <a href="#" target="_blank">View Code</a>
+        <a href="#" target="_blank">Live Demo</a>
+    </div>
+</div>
+
+Overlay for blur effect
+<div id="blur"></div>
+
+    </div> -->
+
+    <!-- Popup project page
     <div class="project-page">
 
         <div id="project-close-button">
@@ -762,10 +813,10 @@
             </div>
         </div>
 
-        <!-- <video src="assets/Project Demo videos/todoList.mp4" loop></video> -->
+        <video src="assets/Project Demo videos/todoList.mp4" loop></video>
 
         <div class="demo-video">
-            <!-- <h3>Demo Video</h3> -->
+            <h3>Demo Video</h3>
             <iframe  src="assets/Project Demo videos/todoList.mp4" frameborder="0" allowfullscreen></iframe>
         </div>
 
@@ -781,7 +832,7 @@
                 <li>This project showcases my proficiency in front-end development, utilizing core web technologies such as HTML, CSS, and JavaScript, along with the responsive framework Bootstrap. The result is a modern, responsive web application that performs well across various devices and screen sizes.</li>
                 <li> I am always eager to enhance my skills and explore new opportunities. If you have any questions, project inquiries, or collaboration ideas, please feel free to reach out. You can contact me via email or phone, or drop a message using the form below. Let’s connect and create something remarkable together!</li>
             </ul>
-        </p>
+        </p> -->
     
     </div>
     
@@ -796,6 +847,10 @@
     <script src="https://kit.fontawesome.com/14acf5788a.js" crossorigin="anonymous"></script>
     <!-- Bootstrap Script  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- FireBase CDN -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+     <script src="firebase.js"></script>
 </body>
 
 </html>

@@ -7,7 +7,18 @@
     padding: 0;
     font-family: 'Poppins',sans-serif;
     box-sizing: border-box;
-    scrollbar-width: ;
+    /* scrollbar-width: ; */
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+    text-align: justify;
+}
+p{
+    color: var(--textColor);
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-top: 15px;
+    text-align: justify;
 }
 
 /* Global variables  */
@@ -479,10 +490,6 @@ span{
     text-transform: uppercase;
 }
 #resume .resume-row .resume-cols .my-info p{
-    color: var(--textColor);
-    font-size: 15px;
-    font-weight: 600;
-    font-style: italic;
     margin: 10px 0;
 }
 #resume .resume-row .resume-cols .my-info ul li{
@@ -521,8 +528,8 @@ span{
 }
 #resume .resume-row .resume-cols .my-edu span +p{
     color: var(--textColor);
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 600;
     font-style: italic;
     margin-bottom: 15px;
 }
@@ -633,13 +640,14 @@ span{
     text-decoration: none;
     display: inline-block;
     font-size: 18px;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     background-color: var(--bgColor);
     border-radius: 50%;
     color: var(--themeColor);
-    line-height: 35px;
+    line-height: 40px;
     transition: 0.4s;
+    text-align: center;
 }
 /* #portfolio .port-row .port-item .port-info  a:hover{
 
