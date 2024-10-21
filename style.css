@@ -78,6 +78,10 @@ header{
 header .profile{
     text-align: center;
     margin:10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 header .profile img{
     width: 150px;
@@ -85,6 +89,7 @@ header .profile img{
     border: 10px solid var(--iconsBGColor);
 }
 header .profile  h1{
+    margin-top: 10px;
     color: white;
     font-weight: 600;
 }
@@ -272,16 +277,16 @@ main{
 
 @media (max-width:1050px) {
     #home .home-row h1{
-        font-size: 35px;
+        font-size: 43px;
         letter-spacing: 0px;
         margin-bottom: 10px;
-        line-height: 70px;
+        line-height: 50px;
     }
     /* #home .home-row h1 br{
         display: none;
     } */
     #home .home-row p{
-        font-size: 20px;
+        font-size: 25px;
         font-weight: 400;
     }
 
@@ -602,8 +607,8 @@ span{
     font-weight: 500;
 }
 #portfolio .card:hover{
-    box-shadow: 0 0 5px 5px var(--themeColor);
-    transition: all  0.4s;
+    box-shadow: 0 0 10px 5px var(--themeColor);
+    transition: cardHover all  0.4s;
 }
 
 /* @keyframes cardHover {
