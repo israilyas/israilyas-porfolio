@@ -25,10 +25,46 @@ function submitForm(e){
     let email = getElementVal('email')
     let sub = getElementVal('subject')
     let msg = getElementVal('msg')
+    
+    saveMessages(name,email,sub,msg);
 
-    console.log(name,email,sub,msg)
-}
+    // Enable Alert
+    Onsubmit()
+
+  }
+
+  // Save these values to firebase:
+  const saveMessages = (uname,email,sub,msg) => {
+    let newContactForm = contactFormDB.push()
+
+    newContactForm.set({
+      Uname:uname,
+      emailId:email,
+      subject:sub,
+      message:msg
+    });
+  }
 
 const getElementVal = (id) => {
-    document.getElementById(id).value
+    return document.getElementById(id).value
+    
 }
+
+// On Form Submit
+
+let sub_button = document.querySelectorAll('#submit')
+
+function Onsubmit(){
+  document.querySelector('.alert').style.display = 'block';
+
+  // Remove alert after 3 sec
+
+  setTimeout(()=>{
+    document.querySelector('.alert').style.display = 'none';
+  },4000)
+  
+  // Reset Form
+  document.getElementById('contactForm').reset()
+}
+
+sub_button.addEventListener('click',onSubmit)
