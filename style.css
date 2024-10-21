@@ -261,7 +261,7 @@ main{
     line-height: 80px;
 }
 #home .home-row h1 .name {
-    font-size: 80px;
+    font-size: 60px;
     color: var(--bgColor);
     color: white;
     font-weight: 700;
